@@ -1,0 +1,62 @@
+html, header, body {
+    max-width: 1920px;
+}
+
+body {
+    background-color: #7998e8;
+    margin: 0;
+}
+
+header {
+    height: 80px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #4c3f9e;
+}
+
+#top_logo img {
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+}
+
+#top_menu {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#top_menu .menu_link {
+    margin: 0 10px 0 10px;
+    color: white;
+}
+
+section {
+    margin: 20px;
+}
+
+section {
+    margin: 20px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts a {
+    width: fit-content;
+}
+
+.contacts a:hover {
+    font-weight: bold;
+}
+
+.project .title {
+    font-weight: bold;
+}
+
+.project .description {
+    display: none;
+}
